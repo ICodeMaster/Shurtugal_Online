@@ -1,0 +1,15 @@
+    name: Shurtugal Online
+    main: com.hotmail.icodemaster.ShurtugalOnline.ShurtugalOnline
+    version: 0.001
+
+    commands:
+       start:
+          description: Start Battle
+          usage: /<command> [player]
+          permission: <plugin name>.start
+          permission-message: You don't have <permission>
+       dragon:
+          description: Turns you into a rider!
+          usage: /<command> [player]
+          permission: <plugin name>.dragon
+          permission-message: You don't have <permission>
